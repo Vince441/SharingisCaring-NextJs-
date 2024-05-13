@@ -1,4 +1,5 @@
 import Presentation from "./components/Presentation";
+import Tarif from "./components/Tarif";
 
 export default function Home() {
   return (
@@ -8,6 +9,9 @@ export default function Home() {
       </div>
       <div className="presentation">
         <Presentation />
+      </div>
+      <div className="tarif">
+        <Tarif />
       </div>
     </main>
   );

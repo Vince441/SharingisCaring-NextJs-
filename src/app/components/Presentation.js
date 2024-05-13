@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
 import React from "react";
-import Salle from "./Salle"
+import Salle from "./Salle";
+import Team from "./Team";
 
 function Presentation() {
   return (
@@ -47,11 +48,25 @@ function Presentation() {
           </div>
         </div>
 
-<div className="Presentation_salle">
-<Salle />
-
-</div>
-
+        <div className="Presentation_salle">
+          <Salle />
+        </div>
+      </div>
+      <div className="Team">
+        <div className="Titre_team">
+          <div className="bloc_presentation small">
+            <div className="trait1"></div>
+          </div>
+          <div className="bloc_presentation medium">
+            <p>La Team</p>
+          </div>
+          <div className="bloc_presentation large">
+            <div className="trait1"></div>
+          </div>
+        </div>
+        <div className="Presentation_team">
+        <Team />
+        </div>
       </div>
     </>
   );

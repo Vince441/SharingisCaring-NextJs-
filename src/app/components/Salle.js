@@ -40,6 +40,7 @@ function Salle() {
         <p>Détente</p>
       </div>
       {showSalle.detente && (
+        <div className="Container_description">
         <div className="Description show">
           <p>
             Afin de garder une bonne dynamique dans votre travail tout au long
@@ -48,11 +49,13 @@ function Salle() {
             coin lecture.</strong>
           </p>
         </div>
+        </div>
       )}
       <div onClick={() => handleShow("barista")} className="bloc_salle Barista">
         <p>Barista</p>
       </div>
       {showSalle.barista && (
+        <div className="Container_description">
         <div className="Description show">
           <p>
             Besoin de faire une pause ? Retrouvez toute la journée Harold, notre
@@ -60,6 +63,7 @@ function Salle() {
             autres gourmandises pour vous maintenir dans des conditions propices
             à l'efficacité. <br></br><strong>Coffee bar ouvert toute la journée.</strong>
           </p>
+        </div>
         </div>
       )}
       <div
@@ -69,12 +73,14 @@ function Salle() {
         <p>Restauration</p>
       </div>
       {showSalle.restauration && (
+        <div className="Container_description">
         <div className="Description show">
           <p>
             Nos plats sont concoctés à partir de produits frais et locaux. Le
             menu sera affiché chaque semaine devant le restaurant ainsi que sur
             notre page instagram.<br></br> <strong>OUVERTURE : 12H - 14H</strong>
           </p>
+        </div>
         </div>
       )}
     </div>
