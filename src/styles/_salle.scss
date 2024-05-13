@@ -1,37 +1,60 @@
 .display_salle {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
   .bloc_salle {
     height: 80px;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
     p {
-        color: white;
-        text-shadow: 1px 1px 1px black;
-        font-size: 3rem;
-        font-weight: 600;
-      }
+      color: white;
+      text-shadow: 1px 1px 1px black;
+      font-size: 3rem;
+      font-weight: 600;
+    }
   }
   .Openspace {
     background-image: url("/images/Salle/imgopenspacer.jpg");
-
-
   }
   .Detente {
     background-image: url("/images/Salle/imgdetenter.jpg");
-
   }
   .Barista {
     background-image: url("/images/Salle/imgbaristar.jpg");
-
   }
   .Restauration {
     background-image: url("/images/Salle/imgrestor.jpg");
+  }
+  .Container_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    .Description {
+      animation: opacity 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+      border: 2px  black;
+      width: 99%;
+      padding: 10px;
+  
+      p {
+        font-size: 1.2rem;
+        text-align: left;
+      }
+    }
+  }
 
+}
+
+@keyframes opacity {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0px);
   }
 }
