@@ -1,6 +1,6 @@
+import Formulaire from "./components/Formulaire";
 import Presentation from "./components/Presentation";
 import Tarif from "./components/Tarif";
-import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -14,8 +14,8 @@ export default function Home() {
       <div className="tarif">
         <Tarif />
       </div>
-      <div className="Contact">
-        <Contact />
+      <div className="formulaire">
+        <Formulaire />
       </div>
     </main>
   );
