@@ -1,5 +1,6 @@
 import Presentation from "./components/Presentation";
 import Tarif from "./components/Tarif";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
       </div>
       <div className="tarif">
         <Tarif />
+      </div>
+      <div className="Contact">
+        <Contact />
       </div>
     </main>
   );
