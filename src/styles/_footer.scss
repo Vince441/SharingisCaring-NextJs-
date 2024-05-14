@@ -1,0 +1,82 @@
+.Container_footer{
+    margin-top: 40px;
+    background-color: #266658;
+    display: flex;
+    padding: 10px 0 10px 0px;
+    .Reseaux{
+width: 50%;
+display: flex;
+align-items: center;
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+
+}
+h1::first-letter{
+    color: black;
+}
+.image_flex{
+    margin-top: 5px;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    img{
+        width: 20%;
+    }
+}
+
+    }
+    .Lieux{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .Localisation{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        .image_loca{
+            width: 40px;
+            img{
+                width: 100%;
+            }
+        }
+  
+            h1{
+                font-size: 1.5rem;
+                color: white;
+            }
+            p{
+                font-weight: 600;
+                color: white;
+                font-size: 0.8rem;
+                line-height: 10px;
+            }
+        }
+        .Horraire{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        .image_horraire{
+            width: 30px;
+            img{
+                width: 100%;
+            }
+        }
+
+    h1{
+        font-size: 1.5rem;
+        color: white;
+    }
+    p{
+        font-weight: 600;
+        color: white;
+        font-size: 0.8rem;
+        line-height: 10px;
+    }
+        }
+    }
+    
+}
